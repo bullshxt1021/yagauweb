@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yagauweb</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and general layout */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        /* Full-page hero section */
+        header {
+            position: relative;
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+        }
+
+        header h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 3rem;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Section for Features */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #features img {
+            width: 100%;
+            max-width: 600px;
+            margin-top: 20px;
+        }
+
+        #cta {
+            background-color: #333;
+            color: white;
+            padding: 40px 20px;
+        }
+
+        #cta a {
+            display: inline-block;
+            background-color: #ff6200;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s;
+        }
+
+        #cta a:hover {
+            background-color: #ff4500;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            #cta a {
+                font-size: 1rem;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header>
+        <h1>yagauweb</h1>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features">
+        <h2>我們的特色</h2>
+        <p>這是一個簡單的一頁式網站，展示我們的社群與內容。</p>
+        <img src="https://via.placeholder.com/600x400" alt="特色圖片">
+    </section>
+
+    <!-- Media Section (Video) -->
+    <section id="gallery">
+        <h2>精彩影片</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zv6tTF7DL1k?si=3dr2hMd2ZonK0zaj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta">
+        <h2>加入我們</h2>
+        <p>點擊下面的按鈕，加入我們的社群和官方 LINE。</p>
+        <a href="https://www.facebook.com/yourGroup" target="_blank">加入社群</a>
+        <a href="https://line.me/R/ti/p/%40yourLINEID" target="_blank">加入官方 LINE</a>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 你的公司名稱</p>
+    </footer>
+
+</body>
+</html>
